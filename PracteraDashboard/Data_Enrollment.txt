@@ -1,0 +1,24 @@
+user_id	team_id	role
+14140	1847	participant
+14141	1846	participant
+14142	1847	participant
+14143	1846	participant
+14144	1846	participant
+14145	1844	participant
+14146	1845	participant
+14147	1844	participant
+14148	1848	participant
+14149	1848	participant
+14150	1844	participant
+14151	1848	participant
+14152	1845	participant
+14153	1845	participant
+14154	1847	participant
+14155	1846	participant
+14156	1844	participant
+14157	1845	participant
+14158	1848	participant
+14159	1845	participant
+14160	1846	participant
+14194	1844	participant
+

@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2020, 5:15:55 PM
+    Author     : allysonochoa
+*/
+
+.root {
+  -fx-in-progress: blue;
+  -fx-done:  green;
+  -fx-published:  orange;
+  -fx-pending-review: yellow
+}
+
+.default-color0.chart-bar { -fx-bar-fill: -fx-in-progress; }
+.default-color1.chart-bar { -fx-bar-fill: -fx-done; }
+.default-color2.chart-bar { -fx-bar-fill: -fx-published; }
+.default-color2.chart-bar { -fx-bar-fill: -fx-pending-review; }
+
+.chart-bar {
+    -fx-bar-fill: #22bad9;
+    -fx-background-color: linear (0%,0%) to (0%,100%) 
+        stops (0%, derive(-fx-bar-fill,-30%)) 
+        (100%, derive(-fx-bar-fill,-40%)),
+        linear (0%,0%) to (0%,100%) 
+        stops (0%, derive(-fx-bar-fill,80%)) 
+        (100%, derive(-fx-bar-fill, 0%)),
+        linear (0%,0%) to (0%,100%) 
+        stops (0%, derive(-fx-bar-fill,30%)) 
+        (100%, derive(-fx-bar-fill,-10%));
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+}

@@ -1,0 +1,26 @@
+/**
+ * CSS to use for pie chart displays
+ *
+ * @author Justin Gallo
+ * @version 1.0
+ * @since 12/14/2020
+ */
+
+.chart {
+    -fx-pref-width: 270;
+    -fx-pref-height: 270;
+    -fx-fill: green;
+    }
+
+.default-color0.chart-pie {
+    -fx-pie-color: blue;
+}
+
+.default-color1.chart-pie {
+    -fx-pie-color: green;
+}
+
+.chart-content {
+    -fx-padding: 10px;
+    
+}

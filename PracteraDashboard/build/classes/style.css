@@ -1,0 +1,26 @@
+
+/* 
+    Created on : Dec 14, 2020, 11:14:33 PM
+    Author     : allysonochoa
+
+Adding and changing different colors for each bar according to the series
+Done activites will be green
+Pending review activities will be orange
+In progress activities will be yellow
+Published activities will be blue
+Resembles a traffic light (Ideally if there were a "not done/incomplete activities"
+would be red)
+*/
+
+.root {
+  -fx-done: green;
+  -fx-pending-review: orange;
+  -fx-in-progress: yellow;
+  -fx-published:  blue;
+}
+
+.default-color0.chart-bar { -fx-bar-fill: -fx-done; }
+.default-color1.chart-bar { -fx-bar-fill: -fx-pending-review; }
+.default-color2.chart-bar { -fx-bar-fill: -fx-in-progress; }
+.default-color3.chart-bar { -fx-bar-fill: -fx-published; }
+
